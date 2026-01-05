@@ -1,3 +1,13 @@
+"""
+Allocative Efficiency and Long-Run Growth: A Quantitative Assessment for Brazil
+Author: João Víctor Medeiros (2026)
+Implementation of an augmented Solow model focusing on misallocation.
+
+Cite as: 
+Medeiros, J. V. (2026). Allocative Efficiency and Long-Run Growth: 
+A Quantitative Assessment for Brazil. GitHub: zKalel/brazil-growth-misallocation-model
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
