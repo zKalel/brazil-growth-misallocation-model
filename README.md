@@ -7,7 +7,7 @@ This repository implements a reproducible quantitative macroeconomic framework t
 
 The model demonstrates that Brazil’s persistently low growth is primarily driven by microeconomic distortions (misallocation) rather than technological backwardness. [cite_start]By reducing these distortions, the economy can achieve sustained transitional growth rates above 3% without requiring frontier technological breakthroughs[cite: 305, 557, 734].
 
-## 🧠 Model Structure
+## Model Structure
 
 The framework is an **augmented Solow-Swan growth model** that incorporates:
 - [cite_start]**Endogenous Efficiency Dynamics:** Inspired by Hsieh & Klenow (2009), mapping micro-distortions to aggregate TFP[cite: 307, 559, 785].
@@ -27,7 +27,7 @@ The transition is governed by a partial convergence process:
 $$E_{t+1} = E_{t} + \lambda_{E}(E^{*} - E_{t})$$
 [cite_start]where $\lambda_{E}$ captures the pace of structural reforms[cite: 202, 509, 788].
 
-## 📊 Scenarios & Results
+## Scenarios & Results
 
 [cite_start]We simulate the Brazilian economy over a 30-year horizon (2025–2055) under three distinct regimes[cite: 385, 640]:
 
@@ -37,14 +37,14 @@ $$E_{t+1} = E_{t} + \lambda_{E}(E^{*} - E_{t})$$
 | **Structural Reform** | 0.60 | [cite_start]Credible improvements in tax neutrality and regulation (Southern Europe levels)[cite: 393, 647, 711]. |
 | **High Convergence** | 0.70 | [cite_start]Upper-bound scenario reaching OECD/South Korean efficiency standards[cite: 463, 716]. |
 
-## 🛠️ Data & Calibration
+## Data & Calibration
 
 The model is calibrated using international macroeconomic benchmarks:
 - [cite_start]**Capital Share ($\alpha$):** 0.40[cite: 73, 370, 622].
 - [cite_start]**Frontier Growth ($g_f$):** 1.0%[cite: 77, 375, 627].
 - [cite_start]**Initial Efficiency ($E_0$):** 0.40 (consistent with Penn World Table and Hsieh-Klenow estimates)[cite: 82, 379, 635].
 
-## 🚀 Reproducibility
+## Reproducibility
 
 To reproduce the results and figures:
 1. Ensure you have `numpy` and `matplotlib` installed.
